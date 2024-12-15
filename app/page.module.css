@@ -166,3 +166,10 @@ a.secondary {
     filter: invert();
   }
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-row-start: 1;
+}

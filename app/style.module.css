@@ -1,0 +1,20 @@
+.header ul, .loginMenu {
+    display: flex;
+    list-style: none;
+}
+
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar li, .login, .signUp {
+    margin: 0 1rem;
+}
