@@ -18,3 +18,80 @@
 .navBar li, .login, .signUp {
     margin: 0 1rem;
 }
+
+.container {
+    padding: 20px;
+    background-color: #c4f5d6;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .cardHighlight {
+    background-color: #333;
+    color: white;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin: 5px 0;
+  }
+  .treatmentSection {
+    background-color: #c4f5d6;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    color: #005b4f;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-style: italic;
+    color: #333;
+  }
+
+  
+  
+  

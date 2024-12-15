@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style.module.css";
+import service from "../pages/service";
 
 const Header = () => {
   return (
@@ -11,25 +12,14 @@ const Header = () => {
 
         	<nav className={styles.navBar}>
         		<ul>
-            		<li><a href="#home">Home</a></li>
-            		<li><a href="#about">Education</a></li>
-            		<li><a href="#contact">Docs</a></li>
+            		<li><a href="#home">Beranda</a></li>
+            		<li><a href="#about">Tentang Kita</a></li>
+            		<li><a href="../">Service</a></li>
+					<li><a href="#contact">Blog</a></li>
           		</ul>
         	</nav>
 
-        	<div className={styles.loginMenu}>
-          		<div className={styles.login}>
-            		<a href="">
-              			Login
-            		</a>
-          		</div>
-				<div>|</div>
-          		<div className={styles.signUp}>
-            		<a href="">
-             			Sign Up
-            		</a>
-          		</div>
-        	</div>
+        	
       	</div>
     </header>
   );
